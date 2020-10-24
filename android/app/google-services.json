@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "226009394780",
+    "firebase_url": "https://rent-alife.firebaseio.com",
+    "project_id": "rent-alife",
+    "storage_bucket": "rent-alife.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226009394780:android:f18d298460e283831ac099",
+        "android_client_info": {
+          "package_name": "com.rentallife.realestate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226009394780-kr2hlj11i7a01t0b2k2nk8gh2g5452md.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNGgY5gJ7NIZOIrTwjkWMlg1rTVmPAjXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226009394780-kr2hlj11i7a01t0b2k2nk8gh2g5452md.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
