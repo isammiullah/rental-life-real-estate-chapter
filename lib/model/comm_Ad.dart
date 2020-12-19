@@ -11,27 +11,30 @@ class commAd{
 
   String title ;
   String floor ;
-  String size ;
-  String rent ;
+  double size ;
+  String sizeUnit;
+  int rent ;
   String desc ;
   String type;
   String category;
-  String capacity;
+  int capacity;
   String catering;
-  String minCharges;
-  String maxCharges;
-  Geolocation location;
+  int minCharges;
+  int maxCharges;
+  String city;
+  LatLng location;
 //  final String error ;
   //final String floorValue;
   //final String dropdownValue ;
 
-  commAd({this.title, this.catering, this.capacity, this.floor,this.size,this.rent,this.desc,this.category,this.type, this.location, this.maxCharges, this.minCharges});
+  commAd({this.title, this.catering, this.capacity, this.floor,this.size,this.rent,this.desc,this.category,this.type,this.city, this.location, this.maxCharges, this.minCharges});
 
 
   Map<String, dynamic> toJson() => {
     'title': title,
     'floor': floor,
     'size' : size,
+    'size unit': sizeUnit,
     'type'  : type,
     'rent' : rent,
     'capacity': capacity,
@@ -41,6 +44,7 @@ class commAd{
     'desc' : desc,
 
     'category': category,
+    'city': city,
     'location' : location,
   };
 }

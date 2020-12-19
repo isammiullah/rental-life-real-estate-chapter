@@ -2,6 +2,10 @@ class User {
   final String uid;
 
   User({this.uid});
+
+  String getUserId(){
+    return uid;
+  }
 }
 
 class UserDocumentData {
@@ -13,5 +17,6 @@ class UserDocumentData {
   String bio;
 
   UserDocumentData({this.uid, this.firstName, this.lastName, this.email, this.age});
+
 
 }
