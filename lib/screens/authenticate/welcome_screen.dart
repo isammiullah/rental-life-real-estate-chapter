@@ -69,7 +69,7 @@ class _AuthenticationPageState extends State<AuthenticationPage> {
                         ),
                       ),
                       const SizedBox(height: 10.0),
-                      Column(
+                      Row(
                         children: <Widget>[
                           const SizedBox(width: 10.0),
                           Expanded(
@@ -108,24 +108,6 @@ class _AuthenticationPageState extends State<AuthenticationPage> {
                             ),
                           ),
                           const SizedBox(width: 10.0),
-                          Expanded(
-                            child: RaisedButton(
-                              color: Colors.grey.shade700,
-                              textColor: Colors.white,
-                              elevation: 0,
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(20.0),
-                              ),
-                              child: Text("Check"),
-                              onPressed: () {
-                                setState(() {
-                                  formVisible = true;
-                                  _formsIndex = 2;
-                                });
-                              },
-                            ),
-                          ),
-
                         ],
                       ),
                       const SizedBox(height: 40.0),
